@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,4 +43,82 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+a:hover, a:active {
+    outline: 0;
+    text-decoration: none;
+}
+.ptb-100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.pd-t-45 {
+    padding-top: 45px;
+}
+.btn-default {
+    padding: 15px 35px;
+    border-radius: 35px;
+    letter-spacing: 0.07em;
+    color: white;
+    background-color: #E84545;
+    text-transform: uppercase;
+}
+.filter-foodmenu-main-div .nav > li > a.active {
+    color: black;
+}
+.filter-foodmenu-main-div .nav > li > a.active > [class*="icon-"] {
+    color: #E84545;
+}
+
+
+
+
+
+
+
+
+.paging-navigation {
+    z-index: 1;
+    font-size: 14px;
+}
+.paging-navigation .nav-links {
+    list-style: none;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 0px;
+}
+.paging-navigation.pagination-center .nav-links {
+    text-align: center;
+}
+.paging-navigation .nav-links > li {
+    display: inline-block;
+    margin: 0 3px;
+}
+.paging-navigation .nav-links li.nav-previous > a, .paging-navigation .nav-links li.nav-next > a {
+    border: 0;
+    padding: 0 22px;
+    display: block;
+    position: relative;
+    width: auto;
+    border-radius: 40px;
+}
+.paging-navigation .nav-links > li > a {
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    color: #8f8f8f;
+    font-weight: 500;
+}
+.paging-navigation .nav-links > li.active > a, .paging-navigation .nav-links > li > a:hover {
+    background-color: #E84545 !important;
+    color: white !important;
+}
+.paging-navigation .nav-links a {
+    font-weight: 500;
+    display: block;
+    -webkit-transition: ease-in 0.25s;
+    transition: ease-in 0.25s;
+    text-align: center;
 }

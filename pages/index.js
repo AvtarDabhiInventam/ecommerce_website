@@ -1,8 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import 'bootstrap/dist/css/bootstrap.css';
-import style from "../styles/pages/home/Home.module.scss"
-
+import Head from "next/head";
+import Image from "next/image";
+import style from "../styles/pages/home/Home.module.scss";
 
 export default function Home() {
   return (
@@ -13,10 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={style.test}>
-        Homepage
-      </main>
-
+      <main className={style.test}>Homepage</main>
     </div>
-  )
+  );
 }
