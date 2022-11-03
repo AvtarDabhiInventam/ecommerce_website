@@ -1,0 +1,160 @@
+.filter_foodmenu_tab {
+    overflow: hidden;
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.filter_foodmenu_tab .nav_tabs {
+    border-bottom: 0 solid;
+    overflow: hidden;
+    display: inline-block;
+}
+.filter_foodmenu_tab .nav_tabs > li {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.filter_foodmenu_tab .nav_tabs > li > a {
+    border-radius: 0px;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 55px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s ease 0s;
+    transition: all 0.25s ease 0s;
+    color: #bababa;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+.filter_foodmenu_tab .nav_tabs > li > a > [class*="icon-"] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 40px;
+    min-height: 50px;
+    margin-bottom: 13px;
+}
+
+
+.food_grid_item {
+    text-align: center;
+    position: relative;
+	margin-bottom: 55px;
+}
+.food_thumb {
+    margin-bottom: 10px;
+}
+.food_info p {
+	font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #666666;
+	margin-bottom: 1.3em;
+}
+.food_grid_item .food_title a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+	font-size: 21px;
+    color: #E84545;
+	display: block;
+	margin-bottom: 20px;
+}
+.food_grid_item .food_price {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 40px;
+    padding: 9px 32px 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 22px;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    position: relative;
+    bottom: 0;
+}
+.food_grid_item .food_price > sub {
+    font-size: 14px;
+    font-weight: normal;
+    bottom: 0;
+}
+.food_grid_item .food_cart_tools {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 -5px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+.food_grid_item .food_cart_tools .food_cart {
+    padding: 10px 30px;
+}
+.food_grid_item .food_cart_tools > a {
+    margin: 0 5px;
+}
+.food_grid_item .food_cart_tools .add_bookmark {
+    width: 38px;
+    font-size: 16px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    line-height: 42px;
+}
+.food_grid_item:hover .food_cart_tools {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .filter_foodmenu_tab .nav_tabs > li > a { 
+        padding: 0 35px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .filter_foodmenu_tab .nav_tabs > li > a { 
+        padding: 0 20px;
+        font-size: 15px;
+    }
+    .filter_foodmenu_tab .nav_tabs > li > a > [class*="icon-"] { 
+        font-size: 30px;
+        min-height: 35px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .filter_foodmenu_tab .nav_tabs > li > a { 
+        padding: 0 10px;
+        font-size: 13px;
+    }
+}

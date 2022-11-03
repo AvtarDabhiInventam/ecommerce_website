@@ -1,0 +1,132 @@
+.site_footer.footer_defaultstyle {
+    color: #bababa;
+}
+
+.site_footer.footer_defaultstyle .footer_widget_area {
+    position: relative;
+}
+
+.site_footer.footer_defaultstyle .footer_widget_area:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: #141414;
+    width: calc(50% - 215px);
+}
+
+.widget {
+    margin-bottom: 60px;
+}
+
+.bt_about_footer_widget .widget_content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bt_about_footer_widget .widget_content .about_logo {
+    flex: 0 0 135px;
+    max-width: 135px;
+}
+
+.bt_about_footer_widget .widget_content .about_logo a {
+    display: block;
+}
+
+.bt_about_footer_widget .widget_content .about_info {
+    padding-left: 35px;
+}
+
+.bt_about_footer_widget .widget_content .about_info p {
+    line-height: 2em;
+}
+
+.social_status {
+    margin: 0 -3px;
+}
+
+.social_status a {
+    line-height: normal;
+    height: auto;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    width: 30px;
+    background-color: transparent;
+    display: inline-block;
+}
+
+
+.widget_links ul {
+    list-style: none;
+    margin: 0;
+}
+
+.widget_links ul>li:first-child {
+    margin-top: 0;
+    padding-top: 0px;
+    border-top: 0 none;
+}
+
+.widget_links ul li {
+    padding: 11px 0;
+    border-bottom: 0 none;
+    line-height: 1.25em;
+}
+
+.widget_links ul li a {
+    color: white;
+    font-weight: 500;
+}
+
+.site_footer.footer_defaultstyle .widget.tb_subscribe_widget {
+    padding-left: 30px;
+}
+
+.site_footer .widget .widget_title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.site_footer .widget .widget_title>span {
+    color: #E84545;
+}
+
+.tb_subscribe_widget .subscribe_form form {
+    position: relative;
+}
+
+.tb_subscribe_widget .subscribe_form form.form_group {
+    margin-bottom: 15px;
+}
+
+.tb_subscribe_widget .subscribe_form form .form_group input[type="email"] {
+    background-color: transparent;
+    border:0;
+    border-bottom: 1px solid #797979;
+    padding: 0 0 14px !important;
+    width: 100%;
+}
+
+.tb_subscribe_widget .subscribe_form form .subscribe_btn{
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    padding: 0;
+}
+
+.tb_subscribe_widget .subscribe_form form p{
+    text-align: right;
+}
+
+.tb_subscribe_widget .subscribe_form form p > span{
+    color: #E84545;
+}
+
