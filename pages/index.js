@@ -16,10 +16,7 @@ export default function Home() {
           rel="stylesheet"></link>
       </Head>
 
-      <main className={style.test}>
-        Homepage
-      </main>
-
+      <main className={style.test}>Homepage</main>
     </div>
-  )
+  );
 }

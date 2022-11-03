@@ -131,11 +131,6 @@ table {
     border-spacing: 0;
 }
 
-p {
-    margin-top: 5px;
-}
-
-
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
@@ -163,3 +158,11 @@ p {
     text-transform: capitalize;
     color: black;
   }
+
+.filter-foodmenu-main-div .nav > li > a.active {
+  color: black;
+}
+
+.filter-foodmenu-main-div .nav > li > a.active > [class*="icon-"] {
+  color: #E84545;
+}

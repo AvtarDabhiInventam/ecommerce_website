@@ -3198,6 +3198,7 @@ img {
     color: #a94442;
     font-size: 60px;
   }
+
   .no-results.not-found .form-controller {
     border-top: 1px solid #ebebeb;
     border-right: 1px solid #ebebeb;
@@ -3211,6 +3212,17 @@ img {
     padding: 4px 0 4px 15px;
     margin-bottom: 0;
   }
+
+    
+.btn-default {
+  padding: 15px 35px;
+  border-radius: 35px;
+  letter-spacing: 0.07em;
+  color: white;
+  background-color: #E84545;
+  text-transform: uppercase;
+}
+
   @media only screen and (max-width: 540px) {
     .no-results.not-found .form-controller {
       padding: 4px 0 4px 15px;
