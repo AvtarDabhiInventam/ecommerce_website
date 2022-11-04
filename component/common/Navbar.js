@@ -2,6 +2,7 @@ import React from 'react'
 import style from "../../styles/components/header.module.scss";
 import logo from '../../images/logo.png'
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Navbar() {
     return (
@@ -31,7 +32,7 @@ function Navbar() {
                             </div>
                             <div class="col-4">
                                 <div className={`${style.header_right_area}`}>
-                                    <div  className={`${style.intro_content_info}`}><span>For customised order:</span> +62 001-23456789</div>
+                                    <div className={`${style.intro_content_info}`}><span>For customised order:</span> +62 001-23456789</div>
 
                                     <div className={`${style.header_card_area}`}>
                                         <a href="#">
@@ -64,12 +65,26 @@ function Navbar() {
                                         <div className={`${style.menu_wrapper}`}>
                                             <div className={`${style.menu_content}`}>
                                                 <ul className={`${style.mainmenu}`}>
-                                                    <li><a href="index.html">Home</a></li>
-                                                    <li><a class="active" href="menu.html">Menu</a></li>
+                                                    <li>
+                                                        <Link href="/">
+                                                            Home
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/menu">
+                                                            Menu
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link href="/signin">
+                                                            Sign in
+                                                        </Link>
+                                                    </li>
                                                     <li><a href="reservation.html">Reservation</a></li>
                                                     <li><a href="services.html">Services</a></li>
-                                                    <li><a href="signin.html">Sign In</a></li>
                                                     <li><a href="contact.html">Contact us</a></li>
+
+
                                                 </ul>
                                                 {/* <!-- /.menu-list --> */}
                                             </div>

@@ -1,0 +1,175 @@
+/*--------------------------------------------------------------
+## Registration Page
+--------------------------------------------------------------*/
+.user_register_block{
+    background:url(../../../images/login-bg.png);
+}
+.user_register_block .user_register_area {
+    background-color: white;
+    position: relative;
+    margin-top: 110px;
+    margin-bottom: 110px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .user_register_block .user_register_area {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  .user_register_block .user_register_area .register_bg_left {
+    position: absolute;
+    width: 270px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:url(../../../images/login-img.png);
+  }
+  @media only screen and (max-width: 1199px) {
+    .user_register_block .user_register_area .register_bg_left {
+      width: 200px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .user_register_block .user_register_area .register_bg_left {
+      width: 270px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .user_register_block .user_register_area .register_bg_left {
+      display: none;
+    }
+  }
+  .user_register_block .reg_others_midea {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 767px) {
+    .user_register_block .reg_others_midea {
+      margin-top: 35px;
+    }
+  }
+  .user_register_block .reg_others_midea .text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    padding-right: 20px;
+  }
+  @media only screen and (max-width: 420px) {
+    .user_register_block .reg_others_midea .text {
+      font-size: 12px;
+      padding-right: 15px;
+    }
+  }
+  .user_register_block .reg_others_midea .social_share {
+    margin-bottom: 0px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+  }
+  .user_register_block .reg_others_midea .social_share > li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .user_register_block .reg_others_midea .social_share > li > a {
+    font-size: 12px;
+    height: 26px;
+    line-height: 27px;
+    width: 26px;
+    display: block;
+    border-radius: 50%;
+    background-color: #bababa;
+    text-align: center;
+    color: white;
+  }
+  .user_register_block .reg_others_midea .social_share > li > a:hover {
+    opacity: 0.9;
+  }
+  .user_register_block .reg_others_midea .social_share > li > a.facebook {
+    background-color: #3B5997;
+  }
+  .user_register_block .reg_others_midea .social_share > li > a.twitter {
+    background-color: #54ACED;
+  }
+  .user_register_block .reg_others_midea .social_share > li > a.google_plus {
+    background-color: #DB4D41;
+  }
+  .user_register_block .reg_others_midea .social_share > li > a.linkedin {
+    background-color: #0179B8;
+  }
+  .user_register_block .form_content {
+    padding: 55px 30px 60px 370px;
+  }
+  @media only screen and (max-width: 1199px) {
+    .user_register_block .form_content {
+      padding: 55px 30px 60px 230px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .user_register_block .form_content {
+      padding: 55px 30px 60px 300px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .user_register_block .form_content {
+      padding: 40px 30px 45px;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    .user_register_block .form_content {
+      padding: 40px 15px 45px;
+    }
+  }
+  .user_register_block .form_content .form-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  @media only screen and (max-width: 420px) {
+    .user_register_block .form_content .form-heading {
+      font-size: 16px;
+    }
+  }
+  .user_register_block .form_content .form-controllar {
+    letter-spacing: 0.05em;
+    padding-top: 15px;
+  }
+  .user_register_block .form_content .form-group {
+    margin-bottom: 10px;
+  }
+  .user_register_block .form_content .form_btn_group {
+    padding-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .user_register_block .form_content .form_btn_group .forget_pass {
+    font-size: 12px;
+    padding-left: 20px;
+    text-align: right;
+    line-height: 1.4em;
+  }
+  .user_register_block .form_content .form_btn_group .forget_pass > a {
+    color: #E84545;
+  }
+  .user_register_block .form_content .form_btn_group .forget_pass > a:hover, .user_register_block .form_content .form_btn_group .forget_pass > a:focus {
+    color: black;
+  }
+  .user_register_block .form_content .btn_default {
+    letter-spacing: 0.175em;
+    padding: 14px 25px;
+  }
+  @media only screen and (max-width: 480px) {
+    .user_register_block .form_content .btn_default {
+      padding: 12px 20px;
+    }
+  }
