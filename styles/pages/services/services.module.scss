@@ -1,0 +1,130 @@
+.featured_item {
+    position: relative;
+    min-height: 120px;
+    margin: 0 auto 30px;
+    display: inline-block;
+  }
+  .featured_item .featured_thumb {
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  .featured_item .featured_thumb img {
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+  }
+  .featured_item .featured_info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: calc(100% - 60px);
+    width: calc(100% - 60px);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 5px solid white;
+  }
+  .featured_item .featured_info:before {
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: black;
+    opacity: 0.7;
+  }
+  .featured_item .featured_info .featured_info_inner {
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+  }
+  .featured_item .featured_info .featured_info_inner .icon {
+    font-size: 70px;
+    color: #E84545;
+    min-height: 75px;
+    margin-bottom: 10px;
+  }
+  .featured_item .featured_info .featured_info_inner .featured_title {
+    font-weight: normal;
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+
+
+  // Whatever we do
+  .services_block {
+    background-image: url(../../../images/restaurant-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .section_title {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .section_title .title_main {
+    font-weight: 700;
+    font-size: 48px;
+    position: relative;
+    z-index: 2;
+    line-height: 1.2em;
+    color: black;
+    font-family: "Playfair Display", serif;
+  }
+  .section_title .title_main {
+    padding-top: 12px;
+  }
+  .section_title .title_main > span {
+    font-size: 142px;
+    line-height: 1em;
+    margin-top: -55px;
+    padding-left: 10px;
+    font-weight: normal;
+    font-family: "Herr Von Muellerhoff", cursive;
+    display: block;
+  }
+  .section_title .title_main > span {
+    color: #E84545;
+  }
+ 
+
+
+
+  // Choose Us Block
+  .single_choose_item {
+    margin-bottom: 50px;
+  }
+  .single_choose_item .icon {
+    font-size: 60px;
+    color: #E84545;
+    min-height: 65px;
+    margin-bottom: 25px;
+  }
+  .single_choose_item .info .heading24 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .heading24 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .choose_thumb {
+    margin-left: -225px;
+  }

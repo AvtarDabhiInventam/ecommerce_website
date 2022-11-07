@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import style from "../styles/components/menu.module.scss";
+import style from "../styles/pages/menu/menu.module.scss";
 import Blogimg from "../images/burger1.png";
 import Pagination from "../component/common/Pagination";
 

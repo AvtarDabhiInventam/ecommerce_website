@@ -158,11 +158,16 @@ table {
     text-transform: capitalize;
     color: black;
   }
+  a:hover, a:active {
+    outline: 0;
+    text-decoration: none;
+}
 
 .filter-foodmenu-main-div .nav > li > a.active {
   color: black;
 }
-
 .filter-foodmenu-main-div .nav > li > a.active > [class*="icon-"] {
   color: #E84545;
 }
+
+
